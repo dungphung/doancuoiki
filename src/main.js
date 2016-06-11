@@ -1,8 +1,10 @@
-"use strict";
-
 var React = require('react');
 var Router = require('react-router');
-var App = require('./js/components/App')
 var ReactDom = require('react-dom');
+var Routes = require('./routes');
 
-ReactDom.render(<App />, document.getElementById('app'));
+
+ReactDom.render(
+  Routes,
+  document.getElementById('app')
+);
