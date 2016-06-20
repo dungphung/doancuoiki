@@ -46,7 +46,7 @@ var NavItem = React.createClass({
         <div>
           <ul className="nav navbar-nav">
             <li><a href="#">Home</a></li>
-
+            <li onClick={this.handleMyJourneyClick}><Link to="/MyJourney">MyJourney</Link></li>
           </ul>
           <ul className="nav navbar-nav navbar-right">
             <li><a><span className="glyphicon glyphicon-user"></span>{this.state.UserName}</a></li>
@@ -66,6 +66,12 @@ var NavItem = React.createClass({
 
       this.props.router.push('/');
 
+    },
+
+    handleMyJourneyClick(e) {
+      e.preventDefault();
+      UserAction.ViewAllJourneys();
+      this.props.router.push('/MyJourney');
     }
 });
 

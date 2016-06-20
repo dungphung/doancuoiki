@@ -3,7 +3,7 @@ var UserAction = require('../../actions/UserAction');
 var ReactRouter = require('react-router');
 var withRouter = ReactRouter.withRouter;
 var Link = ReactRouter.Link;
-var UserStore = require('../../stores/UserStore')
+var UserStore = require('../../stores/UserStore');
 
 var HomeLogin = React.createClass({
     getInitialState: function() {

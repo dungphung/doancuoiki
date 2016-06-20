@@ -122,6 +122,11 @@ AppDispatcher.register(function(payload){
           UserStore.setUserName(action.username);
           UserStore.emitChange();
           break;
+
+        case AppConstants.VIEW_ALL_JOURNEYS:
+          console.log('View all journeys...');
+          UserStore.emitChange();
+          break;
         }
 
     return true;

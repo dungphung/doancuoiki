@@ -59,9 +59,13 @@ var UserAction = {
         actionType: AppConstants.SET_USERNAME,
         username: username
       })
+    },
+
+    ViewAllJourneys: function() {
+        AppDispatcher.handleViewAction({
+        actionType: AppConstants.VIEW_ALL_JOURNEYS
+      })
     }
-
-
 };
 
 module.exports = UserAction;
