@@ -1,28 +1,30 @@
-ReactStarter
-====
+# Đồ án cuối kỳ - *NHÓM AVENGERS*
 
-Use this as a starting point for working on chapters of the [Build Web Apps with React JS and Flux](https://www.udemy.com/learn-and-understand-reactjs/) course on Udemy.com.
+Danh sách sinh viên:
 
----
+MSSV | Họ và tên
+---- | ---------
+1312070 | name
+1312098 | Phùng Văn Dũng
+1312123 | Nguyễn Ngô Thành Đạt
 
-###Getting Started###
+## Đề tài:
+                REACT - FLUX
+## Wireframe
+![Video Walkthrough](images/Wireframe.png)
 
-There are two methods for getting started with this repo.
 
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
+## Data Schema
 
-```
-	> git clone https://github.com/StephenGrider/ReactStarter.git
-	> cd ReactStarter
-	> npm install
-	> gulp
-```
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
-```
-	> npm install
-	> gulp
-```
+## Demo
+![Video Walkthrough](demo/demo.gif)
+
+
+
+# Các chức năng đã thực hiện
+* [x] Git với Centralize Workflow
+* [x] Git theo Feature Branch Workflow
+* [x] Git theo Feature Branch Workflow có Pull Request
+* [ ] Git theo Gitflow Workflow
