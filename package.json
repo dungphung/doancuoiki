@@ -1,11 +1,12 @@
 {
-  "name": "react-starter",
+  "name": "seminar",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "https://github.com/dungvatoi12/doancuoiki",
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -31,5 +32,9 @@
     "object-assign": "*",
     "lodash": "*",
     "whatwg-fetch": "*"
+  },
+  "homepage": "https://imgurapp1.herokuapp.com/",
+  "engines": {
+    "node": "4.4.3"
   }
 }
