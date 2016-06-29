@@ -5,6 +5,7 @@ var CommentBox = React.createClass({
     render: function() {
       return (
           <ul className="list-group">
+		  //render comment box
               {this.renderComment()}
           </ul>
       )
