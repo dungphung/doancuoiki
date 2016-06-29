@@ -17,7 +17,7 @@ MSSV | Họ và tên
 
 
 ## Demo
-![Video Walkthrough](demo/demo.gif))
+![Video Walkthrough](demo/demo.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
