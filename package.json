@@ -1,28 +1,34 @@
 {
-  "name": "appchat",
+  "name": "react-starter",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "phungvandung",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^3.3.6",
     "browserify": "^13.0.1",
-    "flux": "^2.1.1",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
-    "gulp-connect": "^4.0.0",
-    "gulp-eslint": "^2.0.0",
-    "gulp-open": "^2.0.0",
-    "jquery": "^2.2.4",
-    "lodash": "^4.13.1",
-    "react": "^15.1.0",
-    "react-dom": "^15.1.0",
-    "react-router": "^2.4.1",
-    "reactify": "^1.1.1",
-    "vinyl-source-stream": "^1.1.0"
+    "gulp-react": "^3.1.0",
+    "gulp-server-livereload": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "node-notifier": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "^2.5.1",
+    "reactfire": "*",
+    "reactify": "*",
+    "soundcloud": "*",
+    "vinyl-source-stream": "*",
+    "watchify": "*"
+  },
+  "devDependencies": {
+    "flux": "*",
+    "object-assign": "*",
+    "lodash": "*",
+    "whatwg-fetch": "*"
   }
 }
