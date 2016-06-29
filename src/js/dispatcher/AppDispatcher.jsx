@@ -7,9 +7,7 @@ var AppDispatcher = assign(new Dispatcher(), {
             source: 'VIEW_ACTION' ,
             action: action
         };
-        setTimeout(function() {
-            AppDispatcher.dispatch(payload);
-        }, 100);
+        this.dispatch(payload);
     }
 
 });
