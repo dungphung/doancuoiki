@@ -10,9 +10,9 @@ MSSV | Họ và tên
 1312123 | Nguyễn Ngô Thành Đạt
 
 ## Đề tài:
-                > REACT - FLUX
+                 REACT - FLUX
 ## Wireframe
-![Alt Text](images/Wireframe.png)
+![Alt Text](images/wireframe.png)
 
 
 ## Data Schema
