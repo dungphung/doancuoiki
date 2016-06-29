@@ -1,28 +1,30 @@
-ReactStarter
-====
+# Đồ án cuối kỳ - *Name of App*
 
-Use this as a starting point for working on chapters of the [Build Web Apps with React JS and Flux](https://www.udemy.com/learn-and-understand-reactjs/) course on Udemy.com.
+**Name of your app** Đây là trang web cho phép người dùng gửi tin nhắn. Thời gian nộp: 0h ngày 27/4.
 
----
+Danh sách sinh viên:
+MSSV | Họ và tên
+------------ | -------------
+1312070 | name
+1312098 | Phùng Văn Dũng
+1312123 | Nguyễn Ngô Thành Đạt
 
-###Getting Started###
+## Wireframe
 
-There are two methods for getting started with this repo.
 
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
 
-```
-	> git clone https://github.com/StephenGrider/ReactStarter.git
-	> cd ReactStarter
-	> npm install
-	> gulp
-```
+## Data Schema
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
-```
-	> npm install
-	> gulp
-```
+
+## Demo
+![Video Walkthrough](demo/demo.gif))
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+
+## Các chuẩn đầu ra đã đạt của từng thành viên
+
+MSSV | Họ và tên | Hoạt động nhóm | Công nghệ | Thiết kế | Lập trình Front-end | Lập trình và kiến trúc Web | AJAX | Web API | Bảo mật | API bên ngoài | Sử dụng frameworks
+Điểm | G1.2 | G3.1 | G5.1 | G5.2 | G5.3 & G5.5 | G5.4 | G6.1 ^ 6.2 | G7.1 | G8.1 | G8.3
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
