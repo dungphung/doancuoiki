@@ -5,6 +5,8 @@ var useRouterHistory = ReactRouter.useRouterHistory;
 var createHashHistory = require('react-router/node_modules/history').createHashHistory;
 var React = require('react');
 
+process.env.PORT || 8000
+
 var appHistory = useRouterHistory(createHashHistory) ({
     queryKey: false
 });
