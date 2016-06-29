@@ -9,7 +9,7 @@ var server = require('gulp-server-livereload');
 var concat = require('gulp-concat');
 var watch = require('gulp-watch');
 
-var port = Number(process.env.PORT || 3000);
+var port = Number(process.env.PORT || 8000);
 
 
 var notify = function(error) {
@@ -62,7 +62,6 @@ gulp.task('serve', function(done) {
     .pipe(server({
       livereload: {
         enable: true,
-        port: port,
         filter: function(filePath, cb) {
           if(/main.js/.test(filePath)) {
             cb(true)
