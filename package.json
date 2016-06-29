@@ -33,8 +33,5 @@
     "lodash": "*",
     "whatwg-fetch": "*"
   },
-  "homepage": "https://imgurapp1.herokuapp.com/",
-  "engines": {
-    "node": "4.4.3"
-  }
+  "homepage": "https://imgurapp1.herokuapp.com/"
 }
