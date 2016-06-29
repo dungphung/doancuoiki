@@ -12,7 +12,7 @@ MSSV | Họ và tên
 ## Đề tài:
                  REACT - FLUX
 ## Wireframe
-![Alt Text](images/wireframe.png)
+![Alt Text](images/5.png)
 
 
 ## Data Schema
